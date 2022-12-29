@@ -1,0 +1,133 @@
+@import "fonts"
+@import "mobile-version"
+
+$primary-font: Verdana
+$primary-red: firebrick
+$secondary-red: red
+$primary-color: bisque
+$secondary: lightskyblue
+$turker-logo: url("../images/turkiye-logo.svg")
+
+html
+
+    body
+        background: no-repeat linear-gradient($primary-red, $primary-color)
+        background-attachment: fixed
+        color: $primary-color
+        font-family: Antalya
+
+        #root
+            overflow: hidden
+
+        .logo
+            width: 10rem
+
+        .local-time
+            font-size: 16px
+
+        .time-container
+            margin: 0
+            position: absolute
+            top: 50%
+
+        .nav-pills
+            --bs-nav-pills-link-active-bg: lightskyblue
+            --bs-nav-link-color: lightskyblue
+            .nav-item
+                // font-family: Trebuchet MS
+        #nav
+            display: flex
+            justify-content: around
+
+            svg
+                font-size: 3rem
+
+            .weather-icon
+                width: 6rem
+
+            .local-infos > div
+                margin-top: auto
+                margin-bottom: auto
+
+        #main
+            // background:
+            height: 100%
+
+            .local-infos-container
+                background-color: $primary-color
+                color: $primary-red
+
+                h1
+                    font-family: $primary-font
+                    color: $primary-red
+                    text-transform: uppercase
+                    font-weight: 600
+                    padding: 10px 15px
+
+                div
+                    font-family: 'Sans Serif'
+                    margin: 10px
+                    padding: 10px 15px
+
+            .descriptions
+                text-shadow: 1px 1px 2px red
+
+            .carousel
+                padding: 15px 0px
+                margin: 15px 0px
+                background: linear-gradient($primary-color, white)
+                cursor: grab
+
+            .inner-carousel
+                display: flex
+                padding: 2rem, 3rem
+                // overflow: hidden
+
+                .item
+                    min-width: 30rem
+                    min-height: 30rem
+                    padding: 24px
+                    overflow: hidden
+                    // border: solid 2px red
+
+                    img
+                        width: 100%
+                        height: 100%
+                        border-radius: 2rem
+                        cursor: pointer
+                        // margin: 10px
+
+                    p
+                        color: $primary-red
+
+        #header
+            h1
+                font-weight: 600
+                font-size: 5rem
+
+        #us, #invest
+            background-color: $primary-color
+            color: $primary-red
+
+            h1
+                margin: 10px
+                font-family: $primary-font
+                color: $primary-red
+                text-transform: uppercase
+                font-weight: 600
+                padding: 10px 15px
+
+            div
+                border: solid 2px $primary-red
+                font-family: 'Sans Serif'
+                margin: 10px
+                padding: 10px 15px
+                background-color: white
+                color: $secondary
+
+        #footer
+            p
+                font-size: 8px
+                text-align: right
+
+// add a flag on the background, use 2 sets of red and the light yellow for text, use gifs i/o pics
