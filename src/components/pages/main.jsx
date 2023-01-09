@@ -25,10 +25,14 @@ function Main() {
     <div id="main">
         <div className='container local-infos-container py-4 my-4'>
             <h1>A propos d'Antalya</h1>
+
             <NavBar />
         </div>
         
         <motion.div className='carousel'>
+            <div className='container px-3'>
+                <h2>Sites a visiter</h2>
+            </div>
             <motion.div 
                 drag='x' 
                 ref={carousel}

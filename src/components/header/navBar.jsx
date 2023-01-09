@@ -8,10 +8,14 @@ function NavBar() {
     }, 1000);
 
     return (
-        <div id="nav" className='d-flex flex-row justify-content-around'>
-            <LocalTime />
-            <Weather />
+        <div>
+            <h2>Infos locales</h2>
+            <div id="nav" className='d-flex flex-row justify-content-around'>
+                <LocalTime />
+                <Weather />
+            </div>
         </div>
+        
     );
 }
 
