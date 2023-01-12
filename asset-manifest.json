@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/antalya/static/css/main.2c326603.css",
+    "main.js": "/antalya/static/js/main.39994275.js",
+    "static/js/787.28a22615.chunk.js": "/antalya/static/js/787.28a22615.chunk.js",
+    "static/media/fort-mountains.jpg": "/antalya/static/media/fort-mountains.f7140e0ea81e3d7f27ad.jpg",
+    "static/media/belle-plage-turquie.jpg": "/antalya/static/media/belle-plage-turquie.0710b39893e4cac8d214.jpg",
+    "static/media/stadium.jpeg": "/antalya/static/media/stadium.0f9487d57e115bd27abc.jpeg",
+    "static/media/Kaleici-old-town.webp": "/antalya/static/media/Kaleici-old-town.e8fb222cd3b4b524ef73.webp",
+    "static/media/Shopping-Mall.jpg": "/antalya/static/media/Shopping-Mall.3771f98171e3a67f7c72.jpg",
+    "static/media/ahronbd.ttf": "/antalya/static/media/ahronbd.dbc9785b8d63d5537be1.ttf",
+    "static/media/airport.jpg": "/antalya/static/media/airport.9e73a26b7ecd7df1850a.jpg",
+    "static/media/turkiye-logo.svg": "/antalya/static/media/turkiye-logo.465b9f698a88bb402d023466b9d55756.svg",
+    "index.html": "/antalya/index.html",
+    "main.2c326603.css.map": "/antalya/static/css/main.2c326603.css.map",
+    "main.39994275.js.map": "/antalya/static/js/main.39994275.js.map",
+    "787.28a22615.chunk.js.map": "/antalya/static/js/787.28a22615.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c326603.css",
+    "static/js/main.39994275.js"
+  ]
+}
