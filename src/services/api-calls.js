@@ -7,13 +7,6 @@ const types = {
 
 async function apiCall(url, callType) {
   const cookieWeather = document.cookie.split('weather_cookie=');
-  let description;
-  let icon;
-
-  // if (callType === TYPE_WEATHER && cookieWeather.length > 1) {
-  //   description = 'TBD';
-  //   icon = 'TBD';
-  // }
 
   let result = await fetch(url, {
     "method": "GET",
